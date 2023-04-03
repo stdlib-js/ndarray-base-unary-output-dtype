@@ -47,7 +47,7 @@
     "@stdlib/ndarray-base-assert-is-signed-integer-data-type": "github:stdlib-js/ndarray-base-assert-is-signed-integer-data-type#main",
     "@stdlib/ndarray-base-assert-is-unsigned-integer-data-type": "github:stdlib-js/ndarray-base-assert-is-unsigned-integer-data-type#main",
     "@stdlib/ndarray-defaults": "github:stdlib-js/ndarray-defaults#main",
-    "@stdlib/string-format": "^0.0.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2",
     "@stdlib/types": "^0.0.14"
   },
   "devDependencies": {
