@@ -34,30 +34,38 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/ndarray-base-unary-output-dtype
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var unaryOutputDataType = require( '@stdlib/ndarray-base-unary-output-dtype' );
+unaryOutputDataType = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-output-dtype@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var unaryOutputDataType = require( 'path/to/vendor/umd/ndarray-base-unary-output-dtype/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-output-dtype@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.unaryOutputDataType;
+})();
+</script>
 ```
 
 #### unaryOutputDataType( dtype, policy )
@@ -101,14 +109,19 @@ dt = unaryOutputDataType( 'int32', 'float64' );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var naryFunction = require( '@stdlib/utils-nary-function' );
-var map2 = require( '@stdlib/utils-map2' );
-var unzip = require( '@stdlib/utils-unzip' );
-var cartesianProduct = require( '@stdlib/array-base-cartesian-product' );
-var dtypes = require( '@stdlib/ndarray-dtypes' );
-var logEach = require( '@stdlib/console-log-each' );
-var unaryOutputDataType = require( '@stdlib/ndarray-base-unary-output-dtype' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-map2@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cartesian-product@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-output-dtype@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 // Get the list of real-valued data types:
 var dt = dtypes( 'real' );
@@ -132,6 +145,11 @@ var out = map2( args[ 0 ], args[ 1 ], naryFunction( unaryOutputDataType, 2 ) );
 
 // Print results:
 logEach( 'dtypes: (%10s, %10s). policy: %s.', args[ 0 ], out, args[ 1 ] );
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -223,9 +241,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-unary-output-dtype/main/LICENSE
 
-[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/stdlib
+[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/stdlib/tree/umd
 
-[@stdlib/ndarray/output-dtype-policies]: https://github.com/stdlib-js/stdlib
+[@stdlib/ndarray/output-dtype-policies]: https://github.com/stdlib-js/stdlib/tree/umd
 
 </section>
 
