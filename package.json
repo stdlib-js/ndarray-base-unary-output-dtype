@@ -48,11 +48,11 @@
     "@stdlib/ndarray-base-assert-is-unsigned-integer-data-type": "^0.1.0",
     "@stdlib/ndarray-defaults": "^0.1.1",
     "@stdlib/string-format": "^0.1.1",
-    "@stdlib/types": "^0.1.0"
+    "@stdlib/types": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/array-base-cartesian-product": "^0.1.0",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.0",
     "@stdlib/console-log-each": "^0.1.0",
     "@stdlib/ndarray-dtypes": "^0.1.0",
     "@stdlib/utils-map2": "^0.1.0",
