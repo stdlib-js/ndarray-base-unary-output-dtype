@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "@stdlib/array-base-cartesian-product": "^0.1.0",
-    "@stdlib/bench": "^0.2.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/console-log-each": "^0.1.0",
     "@stdlib/ndarray-dtypes": "^0.1.0",
     "@stdlib/utils-map2": "^0.1.0",
