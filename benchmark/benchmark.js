@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isDataType = require( '@stdlib/ndarray-base-assert-is-data-type' );
 var dtypes = require( '@stdlib/ndarray-dtypes' );
 var pkg = require( './../package.json' ).name;
