@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import unaryOutputDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-output-dtype@esm/index.mjs';
+import unaryOutputDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-output-dtype@v0.2.2-esm/index.mjs';
 ```
 
 #### unaryOutputDataType( dtype, policy )
@@ -108,7 +108,7 @@ import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@esm/index.m
 import cartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cartesian-product@esm/index.mjs';
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@esm/index.mjs';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
-import unaryOutputDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-output-dtype@esm/index.mjs';
+import unaryOutputDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-output-dtype@v0.2.2-esm/index.mjs';
 
 // Get the list of real-valued data types:
 var dt = dtypes( 'real' );
