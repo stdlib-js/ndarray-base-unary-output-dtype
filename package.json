@@ -37,8 +37,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-base-assert-is-complex-floating-point-data-type": "^0.2.1",
-    "@stdlib/ndarray-base-assert-is-data-type": "^0.2.1",
+    "@stdlib/ndarray-base-assert-is-complex-floating-point-data-type": "^0.2.2",
+    "@stdlib/ndarray-base-assert-is-data-type": "^0.2.2",
     "@stdlib/ndarray-base-assert-is-floating-point-data-type": "^0.2.2",
     "@stdlib/ndarray-base-assert-is-integer-data-type": "^0.2.2",
     "@stdlib/ndarray-base-assert-is-numeric-data-type": "^0.2.2",
@@ -53,7 +53,7 @@
   },
   "devDependencies": {
     "@stdlib/array-base-cartesian-product": "^0.2.2",
-    "@stdlib/console-log-each": "^0.2.1",
+    "@stdlib/console-log-each": "^0.2.2",
     "@stdlib/ndarray-dtypes": "^0.3.0",
     "@stdlib/utils-map2": "^0.2.1",
     "@stdlib/utils-nary-function": "^0.2.2",
