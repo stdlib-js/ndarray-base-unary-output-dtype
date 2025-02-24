@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-01)
+## Unreleased (2025-02-24)
+
+<section class="features">
+
+### Features
+
+-   [`f230249`](https://github.com/stdlib-js/stdlib/commit/f23024908c1d43ff5c2a8402a53cad2ff1054366) - add support for `_and_generic` data type policies
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,7 +22,7 @@
 
 <details>
 
--   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
+-   [`f230249`](https://github.com/stdlib-js/stdlib/commit/f23024908c1d43ff5c2a8402a53cad2ff1054366) - **feat:** add support for `_and_generic` data type policies _(by Athan Reines)_
 
 </details>
 
@@ -60,7 +70,33 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-15)
 
-No changes reported for this release.
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`8c8e3d1`](https://github.com/stdlib-js/stdlib/commit/8c8e3d15f6698c81c75fc94fa10a7e2b9fb8b5d9) - **docs:** update links _(by Athan Reines)_
+-   [`453dd85`](https://github.com/stdlib-js/stdlib/commit/453dd85b5dd186d2b4d458256fe84906e1503fe2) - **build:** remove tslint directives _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -70,7 +106,56 @@ No changes reported for this release.
 
 ## 0.1.0 (2023-09-24)
 
-No changes reported for this release.
+<section class="features">
+
+### Features
+
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0) - update minimum TypeScript version
+-   [`eec20f6`](https://github.com/stdlib-js/stdlib/commit/eec20f6aba797b451addbf452384c2c4f2ff1add) - add `ndarray/base/unary-output-dtype`
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0): update minimum TypeScript version to 4.1
+
+    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`7ae5741`](https://github.com/stdlib-js/stdlib/commit/7ae574143c9716c82cea6cbf839a20b70a9cdfe0) - **feat:** update minimum TypeScript version _(by Philipp Burckhardt)_
+-   [`eec20f6`](https://github.com/stdlib-js/stdlib/commit/eec20f6aba797b451addbf452384c2c4f2ff1add) - **feat:** add `ndarray/base/unary-output-dtype` _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 

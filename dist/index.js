@@ -1,19 +1,5 @@
-"use strict";var g=function(t,e){return function(){return e||t((e={exports:{}}).exports,e),e.exports}};var n=g(function(E,a){"use strict";var s=require("@stdlib/ndarray-base-assert-is-floating-point-data-type"),u=require("@stdlib/ndarray-base-assert-is-real-floating-point-data-type"),o=require("@stdlib/ndarray-base-assert-is-complex-floating-point-data-type"),p=require("@stdlib/ndarray-base-assert-is-integer-data-type"),d=require("@stdlib/ndarray-base-assert-is-signed-integer-data-type"),l=require("@stdlib/ndarray-base-assert-is-unsigned-integer-data-type"),v=require("@stdlib/ndarray-base-assert-is-real-data-type"),f=require("@stdlib/ndarray-base-assert-is-numeric-data-type"),_=require("@stdlib/ndarray-base-assert-is-data-type"),r=require("@stdlib/ndarray-defaults"),m=require("@stdlib/string-format"),T={floating_point:[s,r.get("dtypes.floating_point")],real_floating_point:[u,r.get("dtypes.real_floating_point")],complex_floating_point:[o,r.get("dtypes.complex_floating_point")],integer:[p,r.get("dtypes.integer")],signed_integer:[d,r.get("dtypes.signed_integer")],unsigned_integer:[l,r.get("dtypes.unsigned_integer")],real:[v,r.get("dtypes.real")],numeric:[f,r.get("dtypes.numeric")]},q=r.get("dtypes.default");function y(t,e){var i;if(e==="default")return q;if(e==="same"||e==="promoted")return t;if(e==="bool")throw new Error("not implemented");if(i=T[e],i===void 0){if(_(e))return e;throw new TypeError(m("invalid argument. Second argument must be a supported data type policy. Value: `%s`.",e))}return i[0](t)?t:i[1]}a.exports=y});var D=n();module.exports=D;
-/**
-* @license Apache-2.0
-*
-* Copyright (c) 2023 The Stdlib Authors.
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*    http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/
+"use strict";var c=function(n,t){return function(){return t||n((t={exports:{}}).exports,t),t.exports}};var y=c(function(P,f){
+var a=require('@stdlib/ndarray-base-assert-is-floating-point-data-type/dist'),g=require('@stdlib/ndarray-base-assert-is-real-floating-point-data-type/dist'),o=require('@stdlib/ndarray-base-assert-is-complex-floating-point-data-type/dist'),p=require('@stdlib/ndarray-base-assert-is-integer-data-type/dist'),s=require('@stdlib/ndarray-base-assert-is-signed-integer-data-type/dist'),_=require('@stdlib/ndarray-base-assert-is-unsigned-integer-data-type/dist'),d=require('@stdlib/ndarray-base-assert-is-real-data-type/dist'),u=require('@stdlib/ndarray-base-assert-is-numeric-data-type/dist'),l=require('@stdlib/ndarray-base-assert-is-boolean-data-type/dist'),v=require('@stdlib/ndarray-base-assert-is-data-type/dist'),e=require('@stdlib/ndarray-defaults/dist'),m=require('@stdlib/error-tools-fmtprodmsg/dist'),T={floating_point:[a,e.get("dtypes.floating_point")],floating_point_and_generic:[r(a),e.get("dtypes.floating_point")],real_floating_point:[g,e.get("dtypes.real_floating_point")],real_floating_point_and_generic:[r(g),e.get("dtypes.real_floating_point")],complex_floating_point:[o,e.get("dtypes.complex_floating_point")],complex_floating_point_and_generic:[r(o),e.get("dtypes.complex_floating_point")],integer:[p,e.get("dtypes.integer")],integer_and_generic:[r(p),e.get("dtypes.integer")],signed_integer:[s,e.get("dtypes.signed_integer")],signed_integer_and_generic:[r(s),e.get("dtypes.signed_integer")],unsigned_integer:[_,e.get("dtypes.unsigned_integer")],unsigned_integer_and_generic:[r(_),e.get("dtypes.unsigned_integer")],real:[d,e.get("dtypes.real")],real_and_generic:[r(d),e.get("dtypes.real")],numeric:[u,e.get("dtypes.numeric")],numeric_and_generic:[r(u),e.get("dtypes.numeric")],boolean:[l,e.get("dtypes.boolean")],boolean_and_generic:[r(l),e.get("dtypes.boolean")]},q=e.get("dtypes.default");function r(n){return t;function t(i){return i==="generic"||n(i)}}function D(n,t){var i;if(t==="default")return q;if(t==="same"||t==="promoted")return n;if(i=T[t],i===void 0){if(v(t))return t;throw new TypeError(m('1dRDw',t))}return i[0](n)?n:i[1]}f.exports=D
+});var x=y();module.exports=x;
+/** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
