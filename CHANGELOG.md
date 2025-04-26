@@ -4,17 +4,28 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-24)
+## Unreleased (2025-04-26)
 
 <section class="features">
 
 ### Features
 
+-   [`a127aaf`](https://github.com/stdlib-js/stdlib/commit/a127aaf3a0a12ec7f2ae62e5fbb2bed4d67f9794) - add support for accumulation and index policies
 -   [`f230249`](https://github.com/stdlib-js/stdlib/commit/f23024908c1d43ff5c2a8402a53cad2ff1054366) - add support for `_and_generic` data type policies
 
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`79f6ac4`](https://github.com/stdlib-js/stdlib/commit/79f6ac4a6aa789b2e012126b8b485c8173a89f11) - accumulate in the default real-valued floating-point dtype
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -22,6 +33,9 @@
 
 <details>
 
+-   [`79f6ac4`](https://github.com/stdlib-js/stdlib/commit/79f6ac4a6aa789b2e012126b8b485c8173a89f11) - **fix:** accumulate in the default real-valued floating-point dtype _(by Athan Reines)_
+-   [`e4a213e`](https://github.com/stdlib-js/stdlib/commit/e4a213e0070ca858adef9c759627173a2c91370b) - **test:** add tests for newly added output policies _(by Athan Reines)_
+-   [`a127aaf`](https://github.com/stdlib-js/stdlib/commit/a127aaf3a0a12ec7f2ae62e5fbb2bed4d67f9794) - **feat:** add support for accumulation and index policies _(by Athan Reines)_
 -   [`f230249`](https://github.com/stdlib-js/stdlib/commit/f23024908c1d43ff5c2a8402a53cad2ff1054366) - **feat:** add support for `_and_generic` data type policies _(by Athan Reines)_
 
 </details>
