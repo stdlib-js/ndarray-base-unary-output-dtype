@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`26d65cd`](https://github.com/stdlib-js/stdlib/commit/26d65cd0dc57249b45b35032a3c251e715a9b8ce) - **refactor:** use generalized utility _(by Athan Reines)_
 -   [`d2d6c1d`](https://github.com/stdlib-js/stdlib/commit/d2d6c1daa1671c5e174e815640efffe63c7f528f) - **refactor:** reduce code complexity by reducing branching logic _(by Athan Reines)_
 -   [`79f6ac4`](https://github.com/stdlib-js/stdlib/commit/79f6ac4a6aa789b2e012126b8b485c8173a89f11) - **fix:** accumulate in the default real-valued floating-point dtype _(by Athan Reines)_
 -   [`e4a213e`](https://github.com/stdlib-js/stdlib/commit/e4a213e0070ca858adef9c759627173a2c91370b) - **test:** add tests for newly added output policies _(by Athan Reines)_
