@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/ndarray-base-output-dtype": "github:stdlib-js/ndarray-base-output-dtype#main",
-    "@stdlib/types": "^0.4.3"
+    "@stdlib/types": "^0.4.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-base-cartesian-product": "^0.2.2",
