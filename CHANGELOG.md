@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-11)
+## Unreleased (2025-09-13)
 
 <section class="features">
 
@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`1829650`](https://github.com/stdlib-js/stdlib/commit/18296504e866597848ac12d2bd609ab8077372d2) - **test:** fix broken tests due to upstream changes _(by Athan Reines)_
 -   [`26d65cd`](https://github.com/stdlib-js/stdlib/commit/26d65cd0dc57249b45b35032a3c251e715a9b8ce) - **refactor:** use generalized utility _(by Athan Reines)_
 -   [`d2d6c1d`](https://github.com/stdlib-js/stdlib/commit/d2d6c1daa1671c5e174e815640efffe63c7f528f) - **refactor:** reduce code complexity by reducing branching logic _(by Athan Reines)_
 -   [`79f6ac4`](https://github.com/stdlib-js/stdlib/commit/79f6ac4a6aa789b2e012126b8b485c8173a89f11) - **fix:** accumulate in the default real-valued floating-point dtype _(by Athan Reines)_
