@@ -79,6 +79,8 @@ Resolves the output ndarray [data type][@stdlib/ndarray/dtypes] for a unary func
 
 ```javascript
 var dt = unaryOutputDataType( 'int32', 'floating_point' );
+
+var s = String( dt );
 // returns 'float64'
 ```
 
@@ -86,9 +88,13 @@ If `policy` is a [data type][@stdlib/ndarray/dtypes], the function always return
 
 ```javascript
 var dt = unaryOutputDataType( 'float32', 'float64' );
+
+var s = String( dt );
 // returns 'float64'
 
 dt = unaryOutputDataType( 'int32', 'float64' );
+
+s = String( dt );
 // returns 'float64'
 
 // ...
@@ -193,7 +199,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -219,8 +225,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
