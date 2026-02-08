@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-unary-output-dtype",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Resolve the output ndarray data type for a unary function.",
   "license": "Apache-2.0",
   "author": {
@@ -37,23 +37,23 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-base-output-dtype": "github:stdlib-js/ndarray-base-output-dtype#main",
+    "@stdlib/ndarray-base-output-dtype": "^0.1.0",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
-    "@stdlib/array-base-cartesian-product": "^0.2.2",
-    "@stdlib/console-log-each": "^0.2.2",
-    "@stdlib/ndarray-base-assert-is-data-type": "^0.3.0",
-    "@stdlib/ndarray-defaults": "^0.4.0",
-    "@stdlib/ndarray-dtypes": "^0.3.0",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/array-base-cartesian-product": "^0.2.3",
+    "@stdlib/console-log-each": "^0.2.4",
+    "@stdlib/ndarray-base-assert-is-data-type": "^0.2.3",
+    "@stdlib/ndarray-defaults": "^0.4.1",
+    "@stdlib/ndarray-dtypes": "^0.4.1",
+    "@stdlib/string-format": "^0.2.3",
     "@stdlib/utils-map2": "^0.2.1",
-    "@stdlib/utils-nary-function": "^0.2.3",
-    "@stdlib/utils-unzip": "^0.2.2",
+    "@stdlib/utils-nary-function": "^0.2.4",
+    "@stdlib/utils-unzip": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
