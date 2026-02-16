@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-base-output-dtype": "^0.1.0",
+    "@stdlib/ndarray-base-output-dtype": "^0.1.1",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
@@ -47,7 +47,7 @@
     "@stdlib/ndarray-defaults": "^0.4.1",
     "@stdlib/ndarray-dtypes": "^0.4.1",
     "@stdlib/string-format": "^0.2.3",
-    "@stdlib/utils-map2": "^0.2.1",
+    "@stdlib/utils-map2": "^0.2.2",
     "@stdlib/utils-nary-function": "^0.2.4",
     "@stdlib/utils-unzip": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
