@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2023 The Stdlib Authors.
@@ -16,18 +16,26 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var tape = require( 'tape' );
-var main = require( './../../dist' );
+import { DataType, OutputPolicy } from '@stdlib/types/ndarray';
+
+/**
+* Resolves the output ndarray data type for a unary function.
+*
+* @param dtype - input ndarray data type
+* @param policy - output ndarray data type policy
+* @returns output ndarray data type
+*
+* @example
+* var dt = outputDataType( 'float64', 'complex_floating_point' );
+* // returns <DataType>
+*/
+declare function outputDataType( dtype: DataType, policy: OutputPolicy | DataType ): DataType;
 
 
-// TESTS //
+// EXPORTS //
 
-tape( 'main export is defined', function test( t ) {
-	t.ok( true, __filename );
-	t.strictEqual( main !== void 0, true, 'main export is defined' );
-	t.end();
-});
+export = outputDataType;
